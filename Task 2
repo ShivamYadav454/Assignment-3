@@ -1,0 +1,5 @@
+import numpy as np
+a = np.array ([1,2,3,4,5])
+N=5
+matrix=np.column_stack([a**(N-1-i) for i in range(N)])
+print(matrix)
