@@ -1,0 +1,11 @@
+def div(a,b):
+    return a/b
+
+try:
+    div(5,0)
+except ArithmeticError:
+    print("division by 0 is not allowed")
+finally:
+    print("Exception is caught and out of try block now")
+
+
